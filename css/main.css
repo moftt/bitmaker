@@ -1,0 +1,126 @@
+* {
+	padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+	display: block;
+	margin: 8px;
+}
+
+div {
+	width: 70%;
+	margin: auto;
+	box-shadow: 0 0 10px 1px rgb(0,100,0,0.2);
+}
+main {
+	flex-wrap: wrap;
+	justify-content: center;
+	display: flex;
+}
+
+p {
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 1.35;
+	padding-left: 3px;
+}
+
+h1 {
+	font-family: Helvetica;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+
+h2 {
+font-family: Helvetica;
+text-align: center;
+padding-bottom: 5px;
+}
+
+img {
+	width: 99%;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+}
+
+h2 {
+	font-family: Helvetica;
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 5px;
+	font-size: 30px;
+	padding-top: 30px;
+}
+
+a {
+	font-family: Helvetica;
+	padding-left: 5px;
+}
+
+.photo {
+	width: calc(50% - 40px);
+	height: calc((35vw - 40px)/16*9);
+	margin: 10px;
+	background-color: white;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.5s ease;
+	box-shadow: 0 0 20px 1px rgba(0,0,0,0.2);
+}
+
+.photo:hover {
+	transform: rotate(3deg) scale(1.07);
+	box-shadow: 0 0 20px 1px rgba(0,0,0,0.4);
+}
+
+.photo1 { 
+	background-image: url("../img/M.jpg");
+}
+
+.photo2 { 
+	background-image: url("../img/mw.jpg");
+}
+
+.photo3 { 
+	background-image: url("../img/Adobe.png");
+}
+
+.photo4 { 
+	background-image: url("../img/uwu.jpg");
+}
+
+.photo5 { 
+	background-image: url("../img/speed.jpg");
+}
+
+.photo6 { 
+	background-image: url("../img/fl.jpg");
+}
+
+.photo7 { 
+	background-image: url("../img/money.png");
+}
+
+.photo8 { 
+	background-image: url("../img/hi.webp");
+}
+
+.photo9 {
+	background-image: url("../img/monkey.jpg");
+}
+
+.photo10 {
+	background-image: url("../img/gun.png");
+}
+
+.photo11 {
+	background-image: url("../img/finger.jpg");
+}
+
+.photo12 {
+	background-image: url("../img/chicken.png");
+}
